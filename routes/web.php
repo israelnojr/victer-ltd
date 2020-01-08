@@ -14,4 +14,3 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::resource('games', 'GameController');Route::resource('games', 'GameController');Route::resource('locations', 'LocationController');Route::resource('places', 'PlaceController');Route::resource('servicegames', 'ServiceGameController');
