@@ -1,7 +1,7 @@
 	<!-- footer -->
     <footer>
 	<section class="footer py-md-5">
-		<div class="container py-4 mt-2">
+		<div class="container py-4 mt-2" style="height: 433px;">
 		<div class="row footer_inner_info_w3ls_agileits">
 			<div class="col-md-3 footer-left">
 				<h2><a href="{{('/')}}">  {{config('app.name')}}</a></h2>
@@ -35,10 +35,9 @@
 						<h4>Useful Links</h4>
 						<ul>
 							<li><a href="{{('/')}}">Home</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="services.html">Services</a></li>
-							<li><a href="gallery.html">Gallery</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="{{ route('about')}}">About</a></li>
+							<li><a href="{{ route('services')}}">Services</a></li>
+							<li><a href="{{ route('contact')}}">Contact</a></li>
 						</ul>
 					</div>
 					<!-- <div class="col-md-4 sign-gd flickr-post">
@@ -64,7 +63,7 @@
                             </div>
                             <div class="address-right">
                                 <h6>Phone Number</h6>
-                                <p>+234-703-294-9204</p>
+								<p>+234-703-294-9204, 708-115-1711</p>
                             </div>
                             <div class="clearfix"> </div>
                         </div>
@@ -74,7 +73,7 @@
                             </div>
                             <div class="address-right">
                                 <h6>Email Address</h6>
-                                <p>Email :<a href="mailto:example@email.com"> mail@example.com</a></p>
+                                <p>Email :<a href="mailto:victertokoh@gmail.com"> victertokoh@gmail.com</a></p>
                             </div>
                             <div class="clearfix"> </div>
                         </div>
@@ -83,10 +82,8 @@
                                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                             </div>
                             <div class="address-right">
-                                <h6>Location</h6>
-                                <p>1234k Avenue,Block-4,New York City.
-
-                                </p>
+                                <h6>Head Office</h6>
+                                <p>Ground Floor Scorpion Block Eliganza Plaza, Apapa, Lagos Nigeria.</p>
                             </div>
                             
                         </div>

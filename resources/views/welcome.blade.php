@@ -9,8 +9,9 @@
 					<div class="banner-top banner-top1">
 						<div class="container">
 							<div class="banner-info info2">
-								<h3>Start Moving</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada neque et turpis hendrerit, et porta dui efficitur. Aenean auctor dui sit amet aliquet mollis.</p>
+								<h3>Import & Exportation</h3>
+								<p class="text-warning" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada neque et turpis 
+									hendrerit, et porta dui efficitur. Aenean auctor dui sit amet aliquet mollis.</p>
 							</div>
 						</div>
 					</div>
@@ -21,8 +22,10 @@
 					<div class="banner-top banner-top2">
 						<div class="container">
 							<div class="banner-info bg3 info2">
-								<h3>Start Moving</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada neque et turpis hendrerit, et porta dui efficitur. Aenean auctor dui sit amet aliquet mollis.</p>
+								<h3>Clearing & Forwarding</h3>
+								<p class="text-warning" >We file entries electronically with Nigeria Customs and will ensure all other 
+									government agency requirements are met, such as NAFDAC requirements on 
+									food safety or SON requirements on perishables, Electronics, and other imports, preventing delays at the port when your goods arrive.</p>
 							</div>
 						</div>
 					</div>
@@ -31,8 +34,9 @@
 					<div class="banner-top banner-top3">
 						<div class="container">
 							<div class="banner-info bg3">
-								<h3>Start Moving</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada neque et turpis hendrerit, et porta dui efficitur. Aenean auctor dui sit amet aliquet mollis.</p>
+								<h3>Auto Sales</h3>
+								<p class="text-warning" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada neque 
+									et turpis hendrerit, et porta dui efficitur. Aenean auctor dui sit amet aliquet mollis.</p>
 							</div>
 						</div>
 					</div>
@@ -48,24 +52,24 @@
 					
 						<div class="col-md-4 banner-grid2">
 							<div class="banner-subg1">
-							<span class="fa fa-globe" aria-hidden="true"></span>
-								<h3 class="mt-3">Worldwide Customers</h3>
-								<p class="mt-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.consectetur adipiscing elit</p>
+							<span class="fa fa-ship" aria-hidden="true"></span>
+								<h3 class="mt-3">Import & Export</h3>
+								<p class="mt-3 mb-3">We specialise in supplies of required essential commodities to a shipping vessel and its crew in terms of ship chandling, we provide the most effective services when any ship is anchored at the port.</p>
 								
-								<div class="read-btn">
+								<!-- <div class="read-btn">
 									<a href="about.html">Learn more</a>
-								</div>
+								</div> -->
 							</div>
 						</div>
 						<div class="col-md-4 banner-grid2">
 							<div class="banner-subg1">
-							<span class="fa fa-user" aria-hidden="true"></span>
-								<h3 class="mt-3">Personal Manager</h3>
+							<span class="fa fa-car" aria-hidden="true"></span>
+								<h3 class="mt-3">Auto Sales</h3>
 								<p class="mt-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.consectetur adipiscing elit</p>
 								
-								<div class="read-btn">
+								<!-- <div class="read-btn">
 									<a href="about.html">Learn more</a>
-								</div>
+								</div> -->
 							</div>
 						</div>
 						<div class="col-md-4 banner-btmg">
@@ -111,7 +115,7 @@
 
 						</p>
 						<div class="ab_button">
-							<a class="btn btn-primary btn-lg hvr-underline-from-left" href="#" role="button" data-toggle="modal" data-target="#myModal">Read More </a>
+							<a class="btn btn-primary btn-lg hvr-underline-from-left" href="{{route('about')}}" role="button" data-toggle="modal" data-target="#myModal">Read More </a>
 						</div>
 
 
@@ -173,7 +177,7 @@
 	</section>
 <!-- //testimonials -->
 <!-- smooth-shipping -->
-	<section class="wthree-row w3-about py-md-5">
+	<!-- <section class="wthree-row w3-about py-md-5">
 		<div class="container py-4 mt-2">
 			<h3 class="tittle-w3ls text-center mb-3">Smooth Shipping.</h3>
 			<p class="tit text-center mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eum inventore consectetur dolorum, voluptatum possimus temporibus vel ab, nesciunt quod!</p>
@@ -210,7 +214,7 @@
 				  </div>
 				</div>
             </div>
-        </section>
+    </section> -->
 <!-- //smooth-shipping -->
 <!-- distance -->
 <section class="distance-w3 py-md-5">
@@ -220,7 +224,7 @@
 					<h4 class="mt-2">The Safest Distance Between Two Points.</h4>
 				</div>
 				<div class="col-md-4 distance-agile-right">
-					<a href="contact.html">call us +234-703-294-9204</a>
+				<a href="{{ route('contact')}}">call us +234-703-294-9204</a>
 				</div>
 			</div>
          </div>

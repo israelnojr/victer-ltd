@@ -152,10 +152,12 @@ li.nav-item {
 .banner-info {
     padding: 13em 0 0em;
     text-align: center;
+    background: #80808087;
+    height: 100vh;
 }
 
 .banner-top1 {
-    background: url(../images/bg1.jpg) no-repeat center;
+    background: url(../images/apapa-1.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -164,7 +166,7 @@ li.nav-item {
 }
 
 .banner-top2 {
-    background: url(../images/bg2.jpg) no-repeat center;
+    background: url(../images/apapa-2.png) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -173,7 +175,7 @@ li.nav-item {
 }
 
 .banner-top3 {
-    background: url(../images/bg3.jpg) no-repeat center;
+    background: url(../images/apapa-3.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -307,6 +309,7 @@ label.header span {
     padding: 4em 2em;
    background:#fff;
     text-align: center;
+    height: 100%;
 }
 
 .banner-btmg1 h3 {
@@ -348,6 +351,18 @@ label.header span {
     margin-top: 5px;
 }
 .form-tx textarea {
+    font-size: 1em;
+    color: #000;
+    padding: 0.75em 1em;
+    width: 100%;
+    outline: none;
+    resize: none;
+    height: 3em;
+    border: 1px solid #c5c0c0;
+    background: #f5f5f5;
+}
+
+.form-tx select {
     font-size: 1em;
     color: #000;
     padding: 0.75em 1em;

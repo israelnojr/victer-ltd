@@ -12,12 +12,25 @@
 						<img src="{{ asset('front/images/g1.jpg')}}" alt=" " class="img-fluid">
 					</div>
 					<div class="col-md-6 banner_bottom_left">
-						<h4>Lorem Ipsum convallis diam</h4>
-						<p>Pellentesque convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla viverra pharetra sem, eget
-							pulvinar neque pharetra ac.</p>
-						<p>Lorem Ipsum convallis diam consequat magna vulputate malesuada. Cras a ornare elit. Nulla viverra pharetra sem, eget
-							pulvinar neque pharetra ac.</p>
-						<a href="#" class="blog-btn" data-toggle="modal" data-target="#myModal">Read More</a>
+						<h4>Read What We Stand For !!!</h4>
+						<p>We stand among the best Shipping/Clearing and Forwarding Agency businesses in Nigeria and are licensed by the Nigeria Custom Service.
+							 We are committed to providing you with customized Services which would help you pursue your defined goal of “Just-in-time delivery and at best cost”.</p>
+						
+							 <p>Our consultation encompasses both import and export trade which spread across matters like tariffs, 
+							insurance, and quotas, track shipments and work with clients on reducing duties owed.</p>
+
+							<p>Our proven pedigree coupled with seasoned professionals with cognate experience in freight forwarding, logistics, shipping/clearing ensures cost effectiveness, 
+								speedy clearance, on-time perfection of documentations, safe and delivery of consignment in the shortest possible time.</p>
+							<p>Our strength that endears our esteem clients is our global alliance and cordial official relationship with the relevant agencies/authorities at the cargo airports, 
+								which has given us a competitive edge and added value on behalf of our clients and hence ensures value for money.</p>
+							<p>We are privileged to fast track shipments with customs authorities, devoid of delays and demurrage accruing on shipments.</p>
+						
+						
+						
+						
+						
+						
+						<!-- <a href="#" class="blog-btn" data-toggle="modal" data-target="#myModal">Read More</a> -->
 					</div>
 				</div>
 			</div>
@@ -32,7 +45,7 @@
 					<h4 class="mt-2">The Safest Distance Between Two Points.</h4>
 				</div>
 				<div class="col-md-4 distance-agile-right">
-					<a href="contact.html">call us 5-367-123-4567</a>
+					<a href="{{ route('contact')}}">call us +234-703-294-9204</a>
 				</div>
 			</div>
          </div>

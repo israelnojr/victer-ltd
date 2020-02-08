@@ -6,40 +6,53 @@
 		<section class="ser-btm py-md-5">
 		<div class="container py-4 mt-2">
 			<h3 class="tittle-w3ls text-center mb-3">Services</h3>
-			<p class="tit text-center mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eum inventore consectetur dolorum, voluptatum possimus temporibus vel ab, nesciunt quod!</p>
+			<p class="tit text-center mx-auto">A truly indigenous company established solely to provide services in the Trade and Transport Industry. </p>
 				<div class="row banner-bottom-main pt-4 mt-md-4">
 					
 						<div class="col-md-4 banner-grid2">
 							<div class="banner-subg1">
 							<span class="fa fa-globe" aria-hidden="true"></span>
-								<h3 class="mt-3">Worldwide Customers</h3>
-								<p class="mt-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.consectetur adipiscing elit</p>
+								<h3 class="mt-3">Clearing & Forwarding</h3>
+								<p class="mt-3 mb-3">We are licensed by the Nigeria Custom Service as clearing and forwarding agents and are known for our integrity, 
+								dependability, differentiated service.</p>
 								
-								<div class="read-btn">
+								<!-- <div class="read-btn">
 									<a href="about.html">Learn more</a>
-								</div>
+								</div> -->
 							</div>
 						</div>
 						<div class="col-md-4 banner-grid2">
 							<div class="banner-subg1">
 							<span class="fa fa-user" aria-hidden="true"></span>
-								<h3 class="mt-3">Personal Manager</h3>
-								<p class="mt-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.consectetur adipiscing elit</p>
+								<h3 class="mt-3">Protective Agency</h3>
+								<p class="mt-3 mb-3">We serve as an advisor to the principal or act directly on our principal’s behalf in directing various elements of the port call, including the movements of the vessel and instructions to the Master.</p>
 								
-								<div class="read-btn">
+								<!-- <div class="read-btn">
 									<a href="about.html">Learn more</a>
-								</div>
+								</div> -->
 							</div>
 						</div>
 						<div class="col-md-4 banner-grid2">
 							<div class="banner-subg1">
-							<span class="fa fa-globe" aria-hidden="true"></span>
-								<h3 class="mt-3">Worldwide Customers</h3>
+							<span class="fa fa-ship" aria-hidden="true"></span>
+								<h3 class="mt-3">Import & Export</h3>
+								<p class="mt-3 mb-3">We specialise in supplies of required essential commodities to a shipping vessel and its crew in terms of ship chandling, we provide the most effective services when any ship is anchored at the port.</p>
+								
+								<!-- <div class="read-btn">
+									<a href="about.html">Learn more</a>
+								</div> -->
+							</div>
+						</div>
+
+						<div class="col-md-4 banner-grid2" style="margin-top: 30px;">
+							<div class="banner-subg1">
+							<span class="fa fa-car" aria-hidden="true"></span>
+								<h3 class="mt-3">Auto Sales</h3>
 								<p class="mt-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.consectetur adipiscing elit</p>
 								
-								<div class="read-btn">
+								<!-- <div class="read-btn">
 									<a href="about.html">Learn more</a>
-								</div>
+								</div> -->
 							</div>
 						</div>
 				</div>
@@ -48,7 +61,7 @@
 		<!-- //banner bottom -->
 
 <!-- smooth-shipping -->
-	<section class="wthree-row w3-about py-md-5">
+	<!-- <section class="wthree-row w3-about py-md-5">
 		<div class="container py-4 mt-2">
 			<h3 class="tittle-w3ls text-center mb-3">Smooth Shipping.</h3>
 			<p class="tit text-center mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eum inventore consectetur dolorum, voluptatum possimus temporibus vel ab, nesciunt quod!</p>
@@ -85,7 +98,7 @@
 				  </div>
 				</div>
             </div>
-        </section>
+    </section> -->
 <!-- //smooth-shipping -->
 <!-- distance -->
 <section class="distance-w3 py-md-5">
@@ -95,7 +108,7 @@
 					<h4 class="mt-2">The Safest Distance Between Two Points.</h4>
 				</div>
 				<div class="col-md-4 distance-agile-right">
-					<a href="contact.html">call us 5-367-123-4567</a>
+				<a href="{{ route('contact')}}">call us +234-703-294-9204</a>
 				</div>
 			</div>
          </div>
