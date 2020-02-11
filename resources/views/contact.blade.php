@@ -39,6 +39,10 @@
 							<label class="contact-form-text">Subject </label>
 							<select name="Subject">
 								<option value="">Choose service you want us to offer</option>
+								<option value="Import & Export">Import & Export</option>
+								<option value="Auto Sales">Auto Sales</option>
+								<option value="Clearing & Forwarding">Clearing & Forwarding</option>
+								<option value="protective Agency">protective Agency</option>
 							</select>
 						</div>
 						<div class="form-tx contact-field3">

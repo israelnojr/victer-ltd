@@ -5,11 +5,25 @@
 		<section class="banner_bottom py-md-5">
 		<div class="container py-4 mt-2">
 			<h3 class="tittle-w3ls text-center mb-3">About Us</h3>
-			<p class="tit text-center mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eum inventore consectetur dolorum, voluptatum possimus temporibus vel ab, nesciunt quod!</p>
+			<p class="tit text-center mx-auto">Our management provides an open and innovative environment that promotes professionalism</p>
 			<div class="inner_sec_info_wthree_agile pt-4 mt-md-4">
 				<div class="row help_full">
 					<div class="col-md-6 banner_bottom_grid help">
 						<img src="{{ asset('front/images/g1.jpg')}}" alt=" " class="img-fluid">
+						<br><br>
+						<p class="text-warning">
+							<strong>Our vision</strong> is to strategically expand our portfolio of services in the importation, exportation, automobile sales, 
+							clearing and forwarding so that we can support our valuable clients as they grow in their respective 
+							industries. It is our commitment to go beyond the expectations of what our clients need from a global logistics provider.
+							</p>
+							<br>
+							<p class="text-primary"><strong>Our mission</strong> is to consistently be an efficient and economical logistics solutions provider in the region and globally. 
+								As we move up in the service industry, our mission is to consistently deliver value to our clients.
+								We hold true the value of hiring, developing and retaining the best employees in the industry. 
+								Our management provides an open and innovative environment that promotes professional and personal growth. 
+								Our main goal is to be a single point of contact for you in today's demanding marketplace. 
+								We will focus on the most efficient and timely method to keep your business moving forward.
+							</p>
 					</div>
 					<div class="col-md-6 banner_bottom_left">
 						<h4>Read What We Stand For !!!</h4>
@@ -25,7 +39,7 @@
 								which has given us a competitive edge and added value on behalf of our clients and hence ensures value for money.</p>
 							<p>We are privileged to fast track shipments with customs authorities, devoid of delays and demurrage accruing on shipments.</p>
 						
-						
+							
 						
 						
 						
@@ -52,7 +66,7 @@
 </section>
 <!-- //distance -->
 	<!-- team -->
-	<section class="team py-md-5">
+	<!-- <section class="team py-md-5">
 		<div class="container py-4 mt-2">
 			<h3 class="tittle-w3ls text-center mb-3">Our Team</h3>
 			<p class="tit text-center mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eum inventore consectetur dolorum, voluptatum possimus temporibus vel ab, nesciunt quod!</p>
@@ -145,7 +159,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- //team -->
 
 

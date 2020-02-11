@@ -65,6 +65,48 @@
                     </div>
                 </div>
             </div>
+
+			<!-- testimony moda -->
+			<div class="modal fade" id="customerTestimony" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">{{ __('Victert')}}</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+						<div class="agileits-w3layouts-info">
+							<form action="{{ route('about')}}">
+								<div class="form-group">
+									<label for="name">Full Name</label>
+									<input type="text" name="name" class="form-control" id="exampleInputname1" aria-describedby="nameHelp" placeholder="Enter name">
+									<small id="nameHelp" class="form-text text-muted">We'll never share your data with anyone else.</small>
+								</div>
+								<div class="form-group">
+									<label for="company">Company</label>
+									<input type="text" name="company" class="form-control" placeholder="Enter your Company Name">
+								</div>
+								<div class="form-group ">
+									<label class="" for="image">Your Image</label>
+									<input type="file" name="image" class="form-control">		
+								</div>
+
+								<div class="form-group ">
+									<label for="message">Your Thought</label>	
+									<textarea type="text" name="message" class="form-control"> </textarea>		
+								</div>
+						</div>
+					</div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
+					</form>
+                    </div>
+                </div>
+            </div>
             <!-- //Modal -->
 
 	<!-- js -->

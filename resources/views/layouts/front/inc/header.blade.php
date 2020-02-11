@@ -4,7 +4,7 @@
 
                     <h1>
                         <a class="navbar-brand" href="{{('/')}}">
-                         {{config('app.name')}}
+                         {{ __('Victert')}}
                             
                         </a>
                     </h1>
@@ -15,15 +15,15 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-lg-auto text-center">
-                            <li class="nav-item active  mr-3">
+                            <li class="nav-item mr-3 {{Request::is('/')?'active': ''}} ">
                                 <a class="nav-link" href="{{('/')}}">Home
                                     <span class="sr-only">(current)</span>
                                 </a>
                             </li>
-                            <li class="nav-item  mr-3">
+                            <li class="nav-item  mr-3 {{Request::is('about-us')?'active': ''}}">
                                 <a class="nav-link" href="{{ route('about')}}">about</a>
                             </li>
-							 <li class="nav-item  mr-3">
+							 <li class="nav-item  mr-3 {{Request::is('our-services')?'active': ''}}">
                                 <a class="nav-link" href="{{ route('services')}}">Services</a>
                             </li>
                             <!-- <li class="nav-item dropdown mr-3">
@@ -36,9 +36,14 @@
 									 <a class="dropdown-item" href="typo.html">Typography</a>
                                 </div>
                             </li> -->
-                            <li class="nav-item mr-3">
+                            <li class="nav-item mr-3 {{Request::is('contact-us')?'active': ''}}">
                                 <a class="nav-link" href="{{ route('contact')}}">contact</a>
                             </li>
+
+                            <li class="nav-item mr-3">
+                               	<a class="nav-link" role="button" data-toggle="modal" data-target="#customerTestimony" href="" >Tell the world about us</a>
+                            </li>
+
                             <li class="nav-item">
                                	<i class="fas fa-phone pr-2"></i>CALL US +234-703-294-9204
                             </li>

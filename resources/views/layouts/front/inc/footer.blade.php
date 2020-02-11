@@ -4,8 +4,8 @@
 		<div class="container py-4 mt-2" style="height: 433px;">
 		<div class="row footer_inner_info_w3ls_agileits">
 			<div class="col-md-3 footer-left">
-				<h2><a href="{{('/')}}">  {{config('app.name')}}</a></h2>
-				<p class="mb-3 mt-3">{{config('app.name')}} is admired and appreciated by our esteemed clients for its 
+				<h2><a href="{{('/')}}"><strong>Victert</strong></a></h2>
+				<p class="mb-3 mt-3"><strong>Victert Integrated Services Limited</strong> is admired and appreciated by our esteemed clients for its 
                         international standards, and professionalism.</p>
 				<ul class="social-nav footer-social social two">
 					<li>
@@ -97,6 +97,6 @@
 		</div>
 	</div>
 	</section>
-	<p class="copy-right py-3">&copy 2018  {{config('app.name')}}. All rights reserved | Design by <a href="http://twitter.com/juisdev">JuisDev</a></p>
+	<p class="copy-right py-3">&copy 2020  <strong>Victert Integrated Services Limited</strong>. All rights reserved | Design by <a href="http://twitter.com/juisdev">JuisDev</a></p>
 	<!-- //footer -->
 </footer>

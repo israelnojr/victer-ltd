@@ -256,6 +256,16 @@ label.header span {
     background: #f5f5f5;
 }
 
+.banner_form select {
+    width: 100%;
+    padding: 0.75em 1em;
+    color: #000;
+    font-size: 1em;
+    outline: none;
+    border: 1px solid #c5c0c0;
+    background: #f5f5f5;
+}
+
 .form-select select {
     border: none;
     outline: none;
@@ -486,7 +496,7 @@ section.slider {
     padding: 0 !important;
 }
 .testimonials {
-    background: transparent url(../images/bg1.jpg)no-repeat 0px 0px;
+    background: transparent url(../images/apapa-3.jpg)no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -494,6 +504,7 @@ section.slider {
     -ms-background-size: cover;
     background-attachment: fixed;
     position: relative;
+    filter: brightness(0.5);
 }
 .testimonial_grids{
 	margin:3em 0 0;
@@ -505,11 +516,12 @@ section.slider {
 	padding-bottom:3em;
 }
 .w3_agileits_testimonial_grid p {
-    color: #fff;
+    color: #ffc107;
     line-height: 33px;
     font-size: 15px;
     margin-bottom: 1em;
     letter-spacing: 1px;
+    font-weight: 900;
 }
 .test-bg-w3ls {
     padding: 2em 3em;

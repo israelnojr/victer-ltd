@@ -74,19 +74,35 @@
 						</div>
 						<div class="col-md-4 banner-btmg">
 							<div class="banner-btmg1">
-								<div class="form-text">
+								<!-- <div class="form-text">
 									<h3 class="text-center">Get a Free Quote</h3>
 									<p class="text-center">Or call one of our customer service</p>
-								</div>
+								</div> -->
 								<form action="#" method="post" class="banner_form">
 									<div class="sec-left">
 										<label class="contact-form-text">Full Name</label>
-										<input placeholder="Your name" name="first name" type="text" required="">
+										<input placeholder="Your name" name="name" type="text" required="">
+									</div>
+
+									<div class="sec-left">
+										<label class="contact-form-text">Email</label>
+										<input placeholder="Your Email" name="email" type="email" required="">
+									</div>
+									<div class="sec-left">
+										<label class="contact-form-text">Subject</label>
+										<select name="services">
+											<option value="">Choose services</option>
+											<option value="Import & Export">Import & Export</option>
+											<option value="Auto Sales">Auto Sales</option>
+											<option value="Clearing & Forwarding">Clearing & Forwarding</option>
+											<option value="protective Agency">protective Agency</option>
+
+										</select>
 									</div>
 									<div class="sec-right">
 										<label class="contact-form-text">Message</label>
 										<textarea placeholder="want you want us to do" name="message" type="text" required="" 
-                                        style="margin-top: 0px; margin-bottom: 0px; height: 100px; width: 100%;">
+                                        style="margin-top: 0px; margin-bottom: 0px; width: 100%;">
                                         </textarea>
 									</div>
 									<input type="submit" value="Get a Quote">
@@ -104,11 +120,11 @@
 
 					<div class="col-md-6 pt-lg-5 mt-lg-5 banner_bottom_left">
 						<h4>Specialtymoves? We’re a company up to the challenge!</h4>
-						<p class="mb-3">{{config('app.name')}} Shipping & Logistics Limited is a world-class provider of innovative logistics and supply-chain service and solutions. 
-                        {{config('app.name')}} started operation in 2015 and we currently have a cardinal partner at major sea and airports across the world.
+						<p class="mb-3"><strong>Victert Integrated Services Limited</strong> is a world-class provider of innovative logistics and supply-chain service and solutions. 
+                        Victert started operation in 2017 and we currently have a cardinal partner at major sea and airports across the world.
 
 						</p>
-						<p class="mb-3">{{config('app.name')}} shipping & Logistics is known for her quality services and extensive network that operates in over 200 countries, 
+						<p class="mb-3"><strong>Victert Integrated Services Limited</strong>  is known for her quality services and extensive network that operates in over 200 countries, 
                         incorporated by the Corperate Affairs Commission (CAC) of Nigeria, a registered member of the Council of Registered Freight Forwarders of 
                         Nigeria (CRFFN) and Associations of Nigerian Licensed Clearing Agent (ANCLA) which gives her the right to deliver courier, cargo and 
                         offer other shipping and logistics services.
@@ -132,8 +148,7 @@
 	<section class="testimonials py-md-5">
 		<div class="container py-4 mt-2">
 			<h3 class="tittle-w3ls text-center mb-3 text-white">Customer Says</h3>
-				<p class="tit text-center mx-auto text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eum inventore consectetur dolorum, voluptatum possimus temporibus vel ab, nesciunt quod!</p>
-
+				<p class="tit text-center mx-auto text-white"> Victert is admired and appreciated by our esteemed clients for its international standards, and professionalism. </p>
 			<div class="w3_agileits_testimonial_grids pt-4 mt-md-4">
 				<section class="slider">
 					<div class="flexslider">
@@ -224,7 +239,7 @@
 					<h4 class="mt-2">The Safest Distance Between Two Points.</h4>
 				</div>
 				<div class="col-md-4 distance-agile-right">
-				<a href="{{ route('contact')}}">call us +234-703-294-9204</a>
+				<a href="#" role="button" data-toggle="modal" data-target="#customerTestimony">Kindly Testify</a>
 				</div>
 			</div>
          </div>
@@ -234,10 +249,12 @@
 <section class="stats py-md-5">
 		<div class="container py-4 mt-2">
 			<h3 class="tittle-w3ls text-center mb-3">Our Stats</h3>
-			<p class="tit text-center mx-auto">We owes our presence in the heart of major Corporate and MNC's who have immense faith in our customized tailor made working & without their continued patronage we would not have been where we are today. Till now we tie-up with 400 companies. A few names are in-scripted for your kind reference as under.</p>
+			<p class="tit text-center mx-auto">We owes our presence in the heart of major Corporate and MNC's who have immense faith in our customized 
+				tailor made working & without their continued patronage we would not have been where we are today. Till now we tie-up with 400 companies. 
+			</p>
 		<div class="row inner_w3l_agile_grids-1 pt-4 mt-md-4">
 			<div class="col-sm-4 w3layouts_stats_left w3_counter_grid">
-				<p class="counter">1,546</p>
+				<p class="counter">400 </p>
 				<h3>Satisfied Clients</h3>
 				<h6>Pure satisfaction</h6>
 			</div>
@@ -249,7 +266,7 @@
 			</div>
 			<div class="col-sm-4 w3layouts_stats_left w3_counter_grid2">
 			
-				<p class="counter">563</p>
+				<p class="counter">6</p>
 				<h3>Branches Worldwide</h3>
 				<h6>Highest level of credibility</h6>
 			</div>
