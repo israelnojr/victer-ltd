@@ -10,8 +10,7 @@
 						<div class="container">
 							<div class="banner-info info2">
 								<h3>Import & Exportation</h3>
-								<p class="text-warning" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada neque et turpis 
-									hendrerit, et porta dui efficitur. Aenean auctor dui sit amet aliquet mollis.</p>
+								<p class="text-warning" >We specialise in supplies of required essential commodities to a shipping vessel and its crew in terms of ship chandling, we provide the most effective services when any ship is anchored at the port.</p>
 							</div>
 						</div>
 					</div>
@@ -35,8 +34,10 @@
 						<div class="container">
 							<div class="banner-info bg3">
 								<h3>Auto Sales</h3>
-								<p class="text-warning" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada neque 
-									et turpis hendrerit, et porta dui efficitur. Aenean auctor dui sit amet aliquet mollis.</p>
+								<p class="text-warning" >Victert Auto is a used car marketing company in Lagos Nigeria. We provides used car dealers, 
+								importers and users around the world with most economical and convenient solutions of importing used vehicles from USA and Canada.</p>
+								<p class="text-default" style="margin-top: -35px;" >Our clearing and forwarding department is our competitive advantage over others so that our customers can get their vehicles delivered quickly and safely.
+								Next time you're looking for a used car or truck give us a call and we will help you locate the vehicle that is right for you at a great price.</p>
 							</div>
 						</div>
 					</div>
@@ -65,7 +66,7 @@
 							<div class="banner-subg1">
 							<span class="fa fa-car" aria-hidden="true"></span>
 								<h3 class="mt-3">Auto Sales</h3>
-								<p class="mt-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.consectetur adipiscing elit</p>
+								<p class="mt-3 mb-3">We have a nice selection of used cars and trucks such as used Chevy, Ford, Dodge, Honda, Toyota, Lexus, or Mercedes. We have access to all makes and models, we also offer special packages and discounts to the dealers, along with marketing solutions to give their business a boost. </p>
 								
 								<!-- <div class="read-btn">
 									<a href="about.html">Learn more</a>

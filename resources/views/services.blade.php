@@ -48,7 +48,8 @@
 							<div class="banner-subg1">
 							<span class="fa fa-car" aria-hidden="true"></span>
 								<h3 class="mt-3">Auto Sales</h3>
-								<p class="mt-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit estibulum nibh urna scing.consectetur adipiscing elit</p>
+								<p class="mt-3 mb-3">Victert Auto is a used car marketing company in Lagos Nigeria. We provides used car dealers,
+								 importers and users around the world with most economical and convenient solutions of importing used vehicles from USA and Canada.</p>
 								
 								<!-- <div class="read-btn">
 									<a href="about.html">Learn more</a>
